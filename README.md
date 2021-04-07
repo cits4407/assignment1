@@ -265,7 +265,7 @@ code often, and make sure you commit changes to your Git repository
 periodically.
 
 Make sure you do ***not*** store your code in a *public* GitHub repository –
-that breaches the University's roles on Academic Conduct.
+that breaches the University's rules on Academic Conduct.
 
 Good luck!
 
