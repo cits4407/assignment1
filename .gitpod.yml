@@ -1,0 +1,13 @@
+image:
+  file: .gitpod.Dockerfile
+
+# List the ports you want to expose and what to do when they are served. See https://www.gitpod.io/docs/config-ports/
+ports:
+  - port: 8080
+    onOpen: ignore
+
+vscode:
+  extensions:
+    - timonwong.shellcheck@0.9.0:hsU/Rd39aqPYowTqL+DbXg==
+
+
