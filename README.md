@@ -21,6 +21,9 @@ covered in lectures and practised in lab/workshops.
 -   The deadline for this assignment is <span class="inserted"
     style="color: red;">**23:59 pm, Sunday 25th April**</span>.
 -   The assignment is to be done individually.
+-   The submission procedure will be announced on the Help4407 forum and
+    in lectures, and published in the next version of this assignment
+    spec.
 -   You are expected to have read and understood the University
     [Guidelines on Academic
     Conduct](http://www.governance.uwa.edu.au/procedures/policies/policies-and-procedures?policy=UP07%2F21).
