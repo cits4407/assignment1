@@ -3,7 +3,7 @@
 ## Details
 
 Version: 0.2   
-Date: 2021-05-19   
+Date: 2021-04-19   
 Changelog:   
 - 2021-04-07 – initial version  
 - 2021-04-19 – minor corrections and clarifications  
