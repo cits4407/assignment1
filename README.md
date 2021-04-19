@@ -2,13 +2,15 @@
 
 ## Details
 
-Version: 0.1  
-Date: 2021-04-07  
+Version: 0.2   
+Date: 2021-05-19   
+Changelog:   
+- 2021-04-07 – initial version  
+- 2021-04-19 – minor corrections and clarifications  
+
 Please check the CITS4407 website or the Git repository
 at <https://github.com/cits4407/assignment1> to ensure that you have the latest
-version.  
-  
-  
+version.
 
 The goal of this assignment is to assess your understanding of concepts
 covered in lectures and practised in lab/workshops.
@@ -249,16 +251,29 @@ If you would like to attempt an extension task, make sure you
 
 ## Environment
 
-All submitted programs should run on an Ubuntu 20.04 Linux distribution
-with packages up to date as at April 2021.
+A standard **test environment** is published at
+<https://hub.docker.com/r/adstewart/cits4407-2021-env>.
 
-A standard **reference environment** is published at
-<https://hub.docker.com/r/adstewart/cits4407-2021-env> – submitted
-programs should assume the packages installed are exactly the ones in
-version 0.1.3 of that environment.
+This is the environment we will run and test your scripts in.
+Your submitted programs should assume the packages they have access to
+are exactly the ones installed in version 0.1.4 of that environment.
 
-We will provide more details shortly about how you can
-access this standard environment.
+From Ubuntu, you can access the test environment by installing
+the package `docker.io` (see the CITS4407 MS Teams channels
+for details), and running:
+
+```
+$ docker run --rm -it -v $PWD:/work adstewart/cits4407-2021-env:0.1.4
+```
+
+You can also access it from any repository cloned from this one by
+visiting the URL
+`https://gitpod.io/#https://github.com/YOUR_GITHUB_USERID/YOUR_ASSIGNMENT1_REPOSITORY`
+in your browser (replacing "`YY`" with your GitHub user ID, and
+"`YOUR_ASSIGNMENT1_REPOSITORY`" with the name of your assignment 1
+repository).
+
+See the CITS4407 MS Teams channels for more detailed instructions.
 
 ## Assessment
 

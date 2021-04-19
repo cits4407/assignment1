@@ -1,4 +1,4 @@
-FROM adstewart/cits4407-2021-env:0.1.3
+FROM adstewart/cits4407-2021-env:0.1.4
 
 USER root
 
