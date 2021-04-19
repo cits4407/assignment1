@@ -273,7 +273,7 @@ $ docker run --rm -it -v $PWD:/work adstewart/cits4407-2021-env:0.1.4
 You can also access it from any repository cloned from this one by
 visiting the URL
 `https://gitpod.io/#https://github.com/YOUR_GITHUB_USERID/YOUR_ASSIGNMENT1_REPOSITORY`
-in your browser (replacing "`YY`" with your GitHub user ID, and
+in your browser (replacing "`YOUR_GITHUB_USERID`" with your GitHub user ID, and
 "`YOUR_ASSIGNMENT1_REPOSITORY`" with the name of your assignment 1
 repository).
 
