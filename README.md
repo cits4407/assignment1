@@ -289,8 +289,10 @@ for how clear and concise your code is.
 
 ## Submission
 
-You can submit your code by pushing it to the Git marking server
-at <https://assignment1.cits4407.arranstewart.info>.
+You can submit your code by pushing it to the CITS4407 Git marking server
+at <https://assignment1.cits4407.arranstewart.info>. (Note that this URL
+only works for cloning and pushing Git repositories – you will just get
+an error message if you try to view it in your web browser.)
 
 The first time you push your code, you'll need to
 [add the Git marking server as a remote][add-remote] to your
@@ -324,9 +326,14 @@ $ git clone https://assignment1.cits4407.arranstewart.info/base/YOUR_STUDENT_NUM
 If you run into issues submitting your code, however, it's
 still possible to submit using [`cssubmit`][cssubmit] –
 zip up your whole repository (no RAR files, please)
-and submit it as a file.
+and submit it as a file. Make sure you read the
+[tips on using `cssubmit][cssubmit-tips], and print off the confirmation
+page after submitting.
+
+
 
 [cssubmit]: https://secure.csse.uwa.edu.au/run/cssubmit
+[cssubmit-tips]: https://cits4407.github.io/assessment/#cssubmit-tips
 
 
 ## Tips
