@@ -302,7 +302,7 @@ local repository:
 
 ```
 $ git remote add marking https://assignment1.cits4407.arranstewart.info/base/YOUR_STUDENT_NUMBER
-$ git remote push -u marking master
+$ git push -u marking master
 ```
 
 (replacing "`YOUR_STUDENT_NUMBER`" with your UWA student number).
