@@ -2,11 +2,12 @@
 
 ## Details
 
-Version: 0.2   
-Date: 2021-04-19   
+Version: 0.3   
+Date: 2021-04-21    
 Changelog:   
-- 2021-04-07 – initial version  
-- 2021-04-19 – minor corrections and clarifications  
+- 2021-04-07 – initial version
+- 2021-04-19 – minor corrections and clarifications
+- 2021-04-21 – submission procedure
 
 Please check the CITS4407 website or the Git repository
 at <https://github.com/cits4407/assignment1> to ensure that you have the latest
@@ -21,9 +22,8 @@ covered in lectures and practised in lab/workshops.
 -   The deadline for this assignment is <span class="inserted"
     style="color: red;">**23:59 pm, Sunday 25th April**</span>.
 -   The assignment is to be done individually.
--   The submission procedure will be announced on the Help4407 forum and
-    in lectures, and published in the next version of this assignment
-    spec.
+-   The submission procedure is given below under the heading
+    "[Submission](#submission)".
 -   You are expected to have read and understood the University
     [Guidelines on Academic
     Conduct](http://www.governance.uwa.edu.au/procedures/policies/policies-and-procedures?policy=UP07%2F21).
@@ -286,6 +286,55 @@ See the CITS4407 MS Teams channels for more detailed instructions.
 
 In addition to the 17 marks awarded for the scripts, 3 marks are awarded
 for how clear and concise your code is.
+
+## Submission
+
+You can submit your code by pushing it to the CITS4407 Git marking server
+at <https://assignment1.cits4407.arranstewart.info>. (Note that this URL
+only works for cloning and pushing Git repositories – you will just get
+an error message if you try to view it in your web browser.)
+
+The first time you push your code, you'll need to
+[add the Git marking server as a remote][add-remote] to your
+local repository:
+
+[add-remote]: https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes#_adding_remote_repositories
+
+```
+$ git remote add marking https://assignment1.cits4407.arranstewart.info/base/YOUR_STUDENT_NUMBER
+$ git remote push -u marking master
+```
+
+(replacing "`YOUR_STUDENT_NUMBER`" with your UWA student number).
+When you `push` your code, you will be prompted for your login details;
+enter your UWA student number and your Pheme password.
+
+After this first push, your local repository keeps a record of the URL
+of the marking server, so that to push your code, you can just type:
+
+```
+$ git push marking
+```
+
+You can also easily see at any time what files you have
+submitted to the marking server:
+
+```
+$ git clone https://assignment1.cits4407.arranstewart.info/base/YOUR_STUDENT_NUMBER some-directory-name
+```
+
+If you run into issues submitting your code, however, it's
+still possible to submit using [`cssubmit`][cssubmit] –
+zip up your whole repository (no RAR files, please)
+and submit it as a file. Make sure you read the
+[tips on using `cssubmit][cssubmit-tips], and print off the confirmation
+page after submitting.
+
+
+
+[cssubmit]: https://secure.csse.uwa.edu.au/run/cssubmit
+[cssubmit-tips]: https://cits4407.github.io/assessment/#cssubmit-tips
+
 
 ## Tips
 
